@@ -1,0 +1,279 @@
+@charset "utf-8";
+
+html,body,h1,h2,h3,h4,h5,h6,hr,p,iframe,dl,dt,dd,ul,ol,li,pre,form,button,input,textarea,th,td,fieldset{
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #666;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -moz-tap-highlight-color: rgba(0,0,0,0);
+    -moz-appearance: none;
+}
+a:visited, a:hover {
+    text-decoration: none;
+    outline: none;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+}
+a:focus{
+	outline: none;
+}
+a img {
+    border: 0;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+html, body {
+    min-height: 100%;
+    /*max-width:720px;*/
+    margin:0 auto;
+}
+html, body, button, input, select, textarea {
+    font: 14px/1.5 "方正兰亭黑",arial,Microsoft YaHei, \5b8b\4f53;
+    color: #333;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body {
+    background: #fff;
+    color: #404141;
+    word-wrap: break-word;
+    word-break: break-all;
+    -webkit-text-size-adjust: none;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+th {
+    text-align: inherit;
+}
+li {
+    list-style: none;
+}
+ol, ul {
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6, b {
+    font-size: 100%;
+    font-weight: 500;
+}
+input, select, textarea {
+    font-size: 100%;
+    outline: none;
+}
+header,footer,section,aside,details,menu,article,section,nav,address,hgroup,figure,figcaption,legend{
+	display:block;
+	padding: 0;
+	margin: 0;
+}
+.link {
+    color: #1d0b08;
+}
+select{
+    border: 1px solid #cfcfcf;
+}
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    content: ' ';
+}
+.nowrap {
+    white-space: nowrap;
+    word-break: keep-all
+}
+.wrap {
+    white-space: normal;
+    word-break: break-all;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-right: 0;
+}
+.ellipsis {
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: keep-all;
+    word-wrap: normal;
+}
+.hide{
+	display: none !important;
+}
+.show{
+	display: block !important;
+}
+input, button, textarea, select {
+    color: #404141;
+    font: 14px/1.5 '\5FAE\8F6F\96C5\9ED1',"方正兰亭黑", Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    -webkit-appearance: none; /*去掉苹果的默认UI来渲染按钮*/
+   -moz-appearance: none;
+   -webkit-tap-highlight-color: rgba(0,0,0,0);
+    outline: none;
+}
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+    -webkit-appearance: none;
+}
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+input[type="submit"], input[type="reset"],input[type="number"], input[type="button"], button { -webkit-appearance: none; /*去掉苹果的默认UI来渲染按钮*/-moz-appearance: none;}
+input:focus,a:focus,button:focus{
+	outline: none;
+	 -webkit-appearance: none;
+	 -moz-appearance: none;
+}
+button{
+    width: 100%;
+    margin: 0 auto;
+}
+.container{
+    position: relative;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+
+/*浮动-start*/
+.floatLeft {
+    float: left;
+}
+.floatRight {
+    float: right;
+}
+.floatNone{
+    float: none;
+}
+/*浮动-end*/
+
+/*网站主色调值-start*/
+.mainColor{
+    color: #80afff;
+}
+.mainBgColor{
+    background-color: #80afff;
+}
+.mainBorderColor{
+    border-color: #80afff;
+}
+/*网站主色调值-end*/
+
+/*字体对齐方式-start*/
+.textAlignCenter{
+    text-align: center;
+}
+.textAlignLeft{
+    text-align: left;
+}
+.textAlignRight{
+    text-align: right;
+}
+/*字体对齐方式-end*/
+
+/*@media screen and (min-width:240px) {*/
+    /*html,body,button,input,select,textarea {*/
+        /*font-size: 9px;*/
+    /*}*/
+/*}*/
+/*@media screen and (min-width:320px){*/
+    /*html,body,button,input,select,textarea {*/
+        /*font-size: 12px;*/
+    /*}*/
+/*}*/
+/*@media screen and (min-width:360px){*/
+    /*html,body,button,input,select,textarea {*/
+        /*font-size: 14px;*/
+    /*}*/
+/*}*/
+/*@media screen and (min-width:374px) {*/
+    /*html,body,button,input,select,textarea {*/
+        /*font-size: 14px;*/
+    /*}*/
+/*}*/
+/*@media screen and (min-width:400px) {*/
+    /*html,body,button,input,select,textarea {*/
+        /*font-size: 15px;*/
+    /*}*/
+/*}*/
+/*@media screen and (min-width:413px) {*/
+    /*html,body,button,input,select,textarea {*/
+        /*font-size: 15.5px;*/
+    /*}*/
+/*}*/
+/*@media screen and (min-width:426px) {*/
+    /*html,body,button,input,select,textarea {*/
+        /*font-size: 16px;*/
+    /*}*/
+/*}*/
+/*@media screen and (min-width:450px) {*/
+    /*html,body,button,input,select,textarea {*/
+        /*font-size: 18px;*/
+    /*}*/
+/*}*/
+/*@media screen and (min-width:480px) {*/
+    /*html,body,button,input,select,textarea {*/
+        /*font-size: 18px;*/
+    /*}*/
+/*}*/
+/*@media screen and (min-width:540px) {*/
+    /*html,body,button,input,select,textarea {*/
+        /*font-size: 20.25px;*/
+    /*}*/
+/*}*/
+/*@media screen and (min-width:590px) {*/
+    /*html,body,button,input,select,textarea {*/
+        /*font-size: 22.13px;*/
+    /*}*/
+/*}*/
+/*@media screen and (min-width:600px) {*/
+    /*html,body,button,input,select,textarea {*/
+        /*font-size: 22.5px;*/
+    /*}*/
+/*}*/
+/*@media screen and (min-width:640px) {*/
+    /*html,body,button,input,select,textarea {*/
+        /*font-size: 24px;*/
+    /*}*/
+/*}*/
+/*@media screen and (min-width:720px) {*/
+    /*html,body,button,input,select,textarea {*/
+        /*font-size: 27px;*/
+    /*}*/
+/*}*/
+/*@media screen and (min-width:800px) {*/
+    /*html,body,button,input,select,textarea {*/
+        /*font-size: 30px;*/
+    /*}*/
+/*}*/
+/*@media screen and (min-width:1080px) {*/
+    /*html,body,button,input,select,textarea {*/
+        /*font-size: 32px;*/
+    /*}*/
+/*}*/
